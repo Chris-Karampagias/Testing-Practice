@@ -1,4 +1,4 @@
-import { calculator } from ".";
+import { calculator } from "../index";
 
 // Tests for calculator.add
 

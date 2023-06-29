@@ -1,4 +1,4 @@
-import { reverseString } from ".";
+import { reverseString } from "../index";
 
 test("works with lowercase strings", () => {
   expect(reverseString("blob")).toBe("bolb");

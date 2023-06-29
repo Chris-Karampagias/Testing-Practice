@@ -1,4 +1,4 @@
-import { capitalize } from ".";
+import { capitalize } from "../index";
 
 test("works with lowercase strings", () => {
   expect(capitalize("black")).toBe("Black");

@@ -1,4 +1,4 @@
-import { caesarCipher } from ".";
+import { caesarCipher } from "../index";
 
 test("works with lowercase characters with a shift of 1", () => {
   expect(caesarCipher("defend the east wall of the castle", 1)).toBe(

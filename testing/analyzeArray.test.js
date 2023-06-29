@@ -1,4 +1,4 @@
-import { analyzeArray } from ".";
+import { analyzeArray } from "../index";
 
 test("works with integers", () => {
   expect(analyzeArray([0, -4, -2])).toEqual({
